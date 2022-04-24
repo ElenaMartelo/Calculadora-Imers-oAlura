@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+    <title> Imersão Dev Alura - Aula 01</title>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <script src="../js/script"></script> 
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+      Calculadora de média</h1>
+      <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas!
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <form id="calculadoraDeMedia">
+      <div id="calculadora">
+        <label id="nota1-label" for="nota"> Nota 1
+        </label>
+        <input type="number" id="nota1" min="0" placeholder ="Insira sua primeira nota" required /> <br>
+        <label id="nota2-label" for="nota"> Nota 2
+        </label>
+        <input type="number" id="nota2" min="0" placeholder ="Insira sua segunda nota" required /> <br>
+        <label id="nota3-label" for="nota"> Nota 3
+        </label>
+        <input type="number" id="nota3" min="0" placeholder ="Insira sua terceira nota" required /> <br>
+        <label id="nota1-label" for="nota"> Nota 4
+        </label>
+        <input type="number" id="nota4" min="0" placeholder ="Insira sua quarta nota" required /> <br>
+        </form>
+      </div>
+    <div class="button">
+        <button type="button" onclick="Calcular()" id="calcular" class="calcular-botao">
+        Calcular nota
+      </button>
+    </div>
+    <p class="resultado" id="resultado"> </p>
+      </body>
+</html>
